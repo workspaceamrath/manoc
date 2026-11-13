@@ -1,0 +1,10 @@
+{
+  "description": "Discover custom T-shirts and personalized merchandise for individuals, groups, and businesses, then share your design and enquire directly with MANOC on WhatsApp.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
