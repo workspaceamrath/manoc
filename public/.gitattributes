@@ -1,2 +1,5 @@
-# AgentPlat packages this default favicon directly from source without LFS hydration.
+# Exclude public assets from Git LFS so they are committed directly as binary assets
 favicon.png -filter -diff -merge -text
+* -filter -diff -merge -text
+assets/* -filter -diff -merge -text
+

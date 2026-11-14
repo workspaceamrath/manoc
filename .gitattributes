@@ -134,13 +134,7 @@
 *.img                filter=lfs diff=lfs merge=lfs -text
 
 # ---------------------------------------------------------------------------
-# CAD & Scientific
+# Overrides: Keep web public assets in normal Git (disable LFS for web build hosts)
 # ---------------------------------------------------------------------------
-*.dwg                filter=lfs diff=lfs merge=lfs -text
-*.dxf                filter=lfs diff=lfs merge=lfs -text
-*.step               filter=lfs diff=lfs merge=lfs -text
-*.stp                filter=lfs diff=lfs merge=lfs -text
-*.iges               filter=lfs diff=lfs merge=lfs -text
-*.stl                filter=lfs diff=lfs merge=lfs -text
-*.nc                 filter=lfs diff=lfs merge=lfs -text
-*.mat                filter=lfs diff=lfs merge=lfs -text
+public/** -filter -diff -merge
+
