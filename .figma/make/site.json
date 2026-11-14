@@ -1,7 +1,14 @@
 {
+  "title": "MANOC | Custom Apparel & Personalized Merchandise",
   "description": "Discover custom T-shirts and personalized merchandise for individuals, groups, and businesses, then share your design and enquire directly with MANOC on WhatsApp.",
+  "icons": {
+    "icon": "/favicon.png"
+  },
+  "openGraph": {
+    "image": "/assets/manoc-logo.jpg"
+  },
   "robots": {
-    "index": false
+    "index": true
   },
   "accessibility": {
     "addBypassLinks": false,
